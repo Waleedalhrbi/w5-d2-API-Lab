@@ -67,14 +67,9 @@ button#btn:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
-
-
 .img-container img {
-    width: 100%;
-    height: 20%;
-    max-width: 100%;
-    height: auto;
+    width: 250px;
+    height: 250px;
     border-radius: 8px;
 }
 
@@ -110,6 +105,10 @@ button#btn:hover {
         gap: 20px; 
         margin-top: 20px;
     }
+    .img-container img {
+        max-width: 100%;
+        border-radius: 8px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -118,5 +117,9 @@ button#btn:hover {
         grid-template-columns: 1fr ;
         gap: 20px; 
         margin-top: 20px;
+    }
+    .img-container img {
+        max-width: 100%;
+        border-radius: 8px;
     }
 }
